@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+   <title>Postfix To Prefix</title>
+  </head>
+  <body>
+    <div class="header">Postfix To Prefix</div>
+
+    <div class="container">
+      <div class="input-alert-submit">
+        <div class="input-submit-block">
+          <textarea
+            id="input-text"
+            title="enter string"
+            class="input-infix"
+            type="text"
+            required
+            placeholder="enter Postfix expression here..."
+          ></textarea>
+          <button id="go-btn" class="submit-btn">submit</button>
+        </div>
+        <label class="label-msg" for="alert-js">Message</label>
+        <div id="alert-js" class="alert"></div>
+        <label class="label-msg" for="final-ans-block">Answer</label>
+        <div id="final-ans-block" class="answer-block"></div>
+        <button id="reset" class="resetbtn">Reset</button>
+      </div>
+      <div class="solution-block">
+        <div class="expression-reset">
+          <div
+            id="infix-exp"
+            title="Given Expression"
+            class="title-solution"
+          ></div>
+        </div>
+
+        <div class="answer-engine">
+          <div class="pre-answer">
+            <div class="ans-title">Current Element :</div>
+            <div id="answer-field" class="answer"></div>
+            <button id="next-button" class="next-button-css">Next</button>
+          </div>
+          <div id="answer-stack" class="stack-block">
+            <div id="ans-flat" title="output string" class="ans-flat-css"></div>
+            <div class="msg_bucket">
+              <div class="stack-box">
+                <label class="operation-box-label">Stack</label>
+                <div id="oprator-stack" class="oprator-bucket"></div>
+              </div>
+              <div class="operation-box">
+                <label class="operation-box-label">Operations</label>
+                <div id="alert-js1" class="alert1"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>

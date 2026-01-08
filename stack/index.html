@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack Visualization</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <h1>Stack Data Structure Visualization</h1>
+        </header>
+
+        <!-- Left Control Panel -->
+        <aside class="control-panel">
+            <div class="input-group">
+                <input type="text" id="input" class="form-input text" 
+                      placeholder="Enter value..." autocomplete="off">
+            </div>
+            
+            <div class="button-group">
+                <button class="btn push" id="add-node">Push</button>
+                <button class="btn pop" id="del-node">Pop</button>
+                <button class="btn reset" id="stop">Reset</button>
+            </div>
+        </aside>
+
+        <!-- Main Visualization Area -->
+        <main class="visualization-area">
+            <div class="stack-container">
+                <div class="main-stack-bucket" id="bucket"></div>
+                <!-- <div class="stack-base"></div> -->
+            </div>
+            <div class="massage-box" id="msg"></div>
+        </main>
+
+        <!-- Right Status Panel -->
+        <aside class="status-panel">
+            <div class="status-card">
+                <h3>Stack Metadata</h3>
+                <div class="status-item">
+                    <span class="status-label">Top of Stack:</span>
+                    <span id="top-value" class="status-value">None</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Last Pushed:</span>
+                    <span id="last-pushed" class="status-value">None</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Last Popped:</span>
+                    <span id="last-popped" class="status-value">None</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Stack Size:</span>
+                    <span id="stack-size" class="status-value">0/5</span>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
