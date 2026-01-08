@@ -1,6 +1,6 @@
 # V - Learn : Learning DSA Through Visuals
 
-### [Live Demo](https://ovuiproduction.github.io/Data-Structure-and-Algorithm-Simulation/)
+### [Live Demo]([https://ovuiproduction.github.io/Data-Structure-and-Algorithm-Simulation/](https://shailesh-waghmode1.github.io/V--Learn-Learning-DSA-Through-Visuals/)
 
 ## V-Learn - Visualizing Data Structures and Algorithms through Animations
 
